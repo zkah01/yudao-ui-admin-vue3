@@ -47,7 +47,7 @@ const loginData = reactive({
   },
   loginForm: {
     uuid: '',
-    tenantName: '芋道源码',
+    tenantName: '中康源码',
     mobileNumber: '',
     code: ''
   }

@@ -69,7 +69,7 @@ const loginData = reactive({
     signIn: false
   },
   loginForm: {
-    tenantName: '芋道源码',
+    tenantName: '中康源码',
     username: 'admin',
     password: 'admin123',
     rememberMe: false,
