@@ -9,7 +9,7 @@ import { useI18n } from '@/hooks/web/useI18n'
 const tenantEnable = import.meta.env.VITE_APP_TENANT_ENABLE
 const BASE_URL = import.meta.env.VITE_BASE_URL
 const BASE_API = import.meta.env.VITE_API_URL
-const { result_code, base_url } = config
+const { result_code } = config
 
 // 需要忽略的提示。忽略后，自动 Promise.reject('error')
 const ignoreMsgs = [
@@ -23,8 +23,6 @@ export const isRelogin = { show: false }
 // const requestList = []
 // 是否正在刷新中
 // const isRefreshToken = false
-
-export const PATH_URL = base_url[import.meta.env.VITE_API_BASEPATH]
 
 // 创建axios实例
 const service: AxiosInstance = axios.create({
